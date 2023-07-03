@@ -136,7 +136,7 @@ margin-left: 15%;
     font-weight: bold;
 }
 .media {
-    position: relative;
+    /* position: relative; */
     border-top: 10px rgb(44, 43, 43) solid;
     
     
@@ -149,43 +149,61 @@ margin-left: 15%;
    
     
 }
+.tv,.lap, .mobile,.child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
 
 
 .tv div, .lap div
 {
-position: absolute;
+/* position: absolute;
 left: 10%;
 margin-top: 15%;
-transform: translate(-50,-50);
+transform: translate(-50,-50); */
 font-size: 30px;
-width: 40%;
+width:50%;
+margin-left: 100px;
+
+/* width: 40%; */
 
 }
 
 .tv img,.lap img{
-    position: absolute;
+    float:right;
+    width: 50%;
+    margin-right: 100px;
+    /* position: absolute;
     left: 900px;
     margin-top: 100px;
-    transform: translate(-50,-50);
+    transform: translate(-50,-50); */
 }
  .mobile div, .child div{
-    position: absolute;
+    /* position: absolute;
 left: 50%;
 margin-top: 10%;
-transform: translate(-50,-50);
+transform: translate(-50,-50); */
 font-size: 30px;
-width: 40%;
+width: 50%;
+margin-right: 100px;
+/* width: 40%; */
 
 }
 .mobile img,.child img{
-    position: absolute;
+    /* position: absolute;
     left: 10%;
     margin-top: 60px;
-    transform: translate(-50,-50);
-    
+    transform: translate(-50,-50); */
+    float: left;
+    width:50%;
+    margin-left: 100px;
+        
 } 
 .media .Questions{
-    position: relative;
+    /* position: relative; */
     border-bottom: 10px rgb(44, 43, 43) solid;
     height: 150vh;
     width: 100%;
@@ -193,18 +211,22 @@ width: 40%;
 }
 
 .Questions h1{
-    position: absolute;
+    /* position: absolute; */
     
     font-size: 60px;
     font: weight 900;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0px;
     break-after: 10px;
-    top:5%;
-    transform: translate(-50,-50);
-    left:25%;
+    margin-top: 100px;
+    text-align: center;
+    /* transform: translate(-50,-50); */
+    
    
 }
+
+
+
 
 .Questions div button
 {
@@ -224,20 +246,23 @@ width: 40%;
 } 
 
 .Questions div{
-    margin-top: 140px;
+    margin-top: 30px;
 }
- .Questions .Que-end{
-    position: absolute;
-display: inline;
+.Que-end{
+    /* position: absolute; */
+/* display: inline; */
 font-family: 'Inter', sans-serif;
 text-align: center;
-line-height: 60px;
-bottom:  15%;
+
+/* line-height: 60px; */
+/* bottom:  15%;
 transform: translate(-50,-50);
-left: 18%;
+left: 18%; */
 }
 .Que-end p{
     font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
 }
 .Que-end input{
     position: absolute;
@@ -246,11 +271,12 @@ left: 18%;
     height: 60px;
     width: 500px;
     border-radius: 7px;
-    left:10%;
+    left: 25%;
     transform: translate(-50,-50);
-    /* padding-left: 10px; */
     font-size: 20px;
     color: white;
+    margin-top: 20px;
+    /* margin-left:10px; */
     
 }
 .Que-end input::placeholder{
@@ -265,14 +291,14 @@ left: 18%;
     background-color:rgb(190, 13, 13) ;
     height: 65px;
     width: 250px ; 
-    /* margin-left: 10px; */
-    left:56%;
-    transform: translate(-50,-50);
+    
     border-radius: 5px;
     border: 0;
     font-size: 30px;
     font-weight: bold;
     padding-left: 25px;
+    margin-top: 20px;
+   right: 30%;
 }
 .footer{
     position: relative;
