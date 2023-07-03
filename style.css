@@ -206,7 +206,7 @@ margin-right: 50px;
 .media .Questions{
     /* position: relative; */
     border-bottom: 10px rgb(44, 43, 43) solid;
-    height: 210vh;
+    height: 200vh;
     width: 100%;
    
 }
@@ -299,7 +299,7 @@ left: 18%; */
     font-weight: bold;
     padding-left: 25px;
     margin-top: 20px;
-   right: 30%;
+   right: 20%;
 }
 .footer{
     position: relative;
