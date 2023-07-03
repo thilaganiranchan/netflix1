@@ -29,7 +29,7 @@ body{
 .img{
     position: absolute;
    
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .content{
     position: relative;
@@ -136,13 +136,13 @@ margin-left: 15%;
     font-weight: bold;
 }
 .media {
-    /* position: relative; */
+    position: relative;
     border-top: 10px rgb(44, 43, 43) solid;
     
-    
-}
+    }
 
 .media .tv,.mobile,.lap,.child{
+    position:absolute;
     border-bottom: 10px rgb(44, 43, 43) solid;
     height: 90vh;
     width: 100%;
@@ -150,6 +150,7 @@ margin-left: 15%;
     
 }
 .tv,.lap, .mobile,.child{
+    position:absolute;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -159,9 +160,8 @@ margin-left: 15%;
 
 
 .tv div, .lap div
-{
-/* position: absolute;
-left: 10%;
+{ position: absolute;
+/*left: 10%;
 margin-top: 15%;
 transform: translate(-50,-50); */
 font-size: 30px;
@@ -176,14 +176,14 @@ margin-left: 100px;
     float:right;
     width: 50%;
     margin-right: 100px;
-    /* position: absolute;
-    left: 900px;
+     position: absolute;
+   /* left: 900px;
     margin-top: 100px;
     transform: translate(-50,-50); */
 }
  .mobile div, .child div{
-    /* position: absolute;
-left: 50%;
+     position: absolute;
+/*left: 50%;
 margin-top: 10%;
 transform: translate(-50,-50); */
 font-size: 30px;
@@ -193,8 +193,8 @@ margin-right: 100px;
 
 }
 .mobile img,.child img{
-    /* position: absolute;
-    left: 10%;
+     position: absolute;
+   /* left: 10%;
     margin-top: 60px;
     transform: translate(-50,-50); */
     float: left;
@@ -203,7 +203,7 @@ margin-right: 100px;
         
 } 
 .media .Questions{
-    /* position: relative; */
+    position: relative; 
     border-bottom: 10px rgb(44, 43, 43) solid;
     height: 150vh;
     width: 100%;
@@ -211,7 +211,7 @@ margin-right: 100px;
 }
 
 .Questions h1{
-    /* position: absolute; */
+     position: absolute; 
     
     font-size: 60px;
     font: weight 900;
@@ -230,7 +230,7 @@ margin-right: 100px;
 
 .Questions div button
 {
-     /* position: absolute; */
+     position: absolute; 
     display: flex;
     margin-left: 10%;
     height: 100px;
@@ -249,7 +249,7 @@ margin-right: 100px;
     margin-top: 30px;
 }
 .Que-end{
-    /* position: absolute; */
+     position: absolute; 
 /* display: inline; */
 font-family: 'Inter', sans-serif;
 text-align: center;
