@@ -254,41 +254,30 @@ margin-right: 50px;
 /* display: inline; */
 font-family: 'Inter', sans-serif;
 text-align: center;
-line-height: 60px;
-margin-top: 12%;
-margin-left: 15%;
+
 /* line-height: 60px; */
 /* bottom:  15%;
 transform: translate(-50,-50);
 left: 18%; */
 }
-
 .Que-end p{
     font-size: 28px;
     text-align: center;
     margin-top: 50px;
 }
 .Que-end input{
-    /* position: absolute;
+    position: absolute;
     background: transparent;
     border: 2px solid wheat;
     height: 60px;
     width: 500px;
     border-radius: 7px;
-    left: 18%;
+    left: 15%;
     transform: translate(-50,-50);
     font-size: 20px;
     color: white;
     margin-top: 20px;
-    margin-left:10px; */
-    background: transparent;
-    border: 2px solid wheat;
-    height: 60px;
-    width: 500px;
-    border-radius: 7px;
-    padding-left: 10px;
-    font-size: 20px;
-    color: white;
+    /* margin-left:10px; */
     
 }
 .Que-end input::placeholder{
@@ -299,28 +288,18 @@ left: 18%; */
 
  .Questions .Que-end button
 {
-    /* position: absolute;
+    position: absolute;
     background-color:rgb(190, 13, 13) ;
     height: 65px;
     width: 250px ; 
-    
     border-radius: 5px;
     border: 0;
     font-size: 30px;
     font-weight: bold;
     padding-left: 25px;
     margin-top: 20px;
-    
-   right: 12%;
-   transform: translate(-50,-50); */
-   background-color:rgb(190, 13, 13) ;
-   height: 65px;
-   width: 250px ;
-   margin-left: 10px;
-   border-radius: 7px;
-   border: 0;
-   font-size: 30px;
-   font-weight: bold;
+    right: 10%;
+   transform: translate(-50,-50);
 }
 .footer{
     position: relative;
