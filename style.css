@@ -299,8 +299,9 @@ left: 18%; */
     font-weight: bold;
     padding-left: 25px;
     margin-top: 20px;
-    margin-left: 20px;
-   right: 10%;
+    
+   right: 20%;
+   transform: translate(-50,-50);
 }
 .footer{
     position: relative;
