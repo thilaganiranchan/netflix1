@@ -225,11 +225,17 @@ margin-right: 50px;
     
    
 }
+.Questions div button span
+{
+    width: 10%;
+   
+}
 
+.Questions div button p{
+    width: 90%;
+}
 
-
-
-.Questions div button
+.Questions div button 
 {
      /* position: absolute; */
     display: flex;
